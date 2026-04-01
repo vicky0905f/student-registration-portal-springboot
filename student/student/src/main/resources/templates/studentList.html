@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.com">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="studentlist.css">
+    <title>register</title>
+    <script src="https://kit.fontawesome.com/0faddc1af8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <a class="logo">Data Sticks...</a>
+    <nav>
+        <ul class="nav_links">
+            <li><a href="/">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="#">contact us</a></li>
+            <li><a href="registered_data">Registered data</a> </li>
+        </ul>
+    </nav>
+</header>
+
+<h2>Student List</h2>
+
+<table >
+    <thead>
+    <tr>
+        <th>Portal Id</th>
+        <th>Registered num</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Department</th>
+        <th>CGPA</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr th:each="b : ${student}">
+        <td th:text="${b.id}"></td>
+        <td th:text="${b.regId}"></td>
+        <td th:text="${b.studentName}"></td>
+        <td th:text="${b.age}"></td>
+        <td th:text="${b.department}"></td>
+        <td th:text="${b.cgpa}"></td>
+        <td>
+            <a th:href="@{/delete/{id}(id=${b.id})}"><i class="fa-solid fa-trash-can" style="color: rgb(232, 21, 21);"></i></a>
+            <a th:href="@{/edit/{id}(id=${b.id})}"><i class="fa-solid fa-file-pen" style="color: rgb(33, 130, 207);"></i></a>
+        </td>
+    </tr>
+    </tbody>
+
+</table>
+
+</body>
+<footer>Data sticks portal a complete open source all rights received </footer>
+</html>

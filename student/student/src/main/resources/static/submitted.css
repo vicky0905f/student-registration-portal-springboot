@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Pacifico&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 20px;
+    text-decoration: none;
+    font-family:"Rubik", sans-serif;
+    background-color: rgb(46, 44, 44);
+
+
+}
+
+a.logo{
+    text-decoration: none;
+    font-size: 26px;
+    color: cyan;
+    padding-left: 10px;
+    padding-right: 50px;
+    margin-right: auto;
+    margin-left: 10px;
+    font-weight:800;
+    font-family: "Pacifico", cursive;
+    font-style: initial;
+}
+
+ li{
+    padding-right: auto;
+    text-decoration:none ;
+    display: inline-block;
+    justify-content: flex-end;
+    justify-content: center;
+    padding-right: 15px;
+    padding: 5px 20px;
+
+   
+}
+nav.nav_links{
+    text-decoration: none;
+    list-style: none;
+}
+.nav_links li a{
+    text-decoration: none;
+    color:rgb(238, 175, 57);
+    
+   font-weight: bold;
+}
+.nav_links li a:hover{
+    color: cyan;
+    transition-duration: 1.5s;
+}
+.container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f7fb;
+    background-image: url('form.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: auto;
+}
+.card {
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    border-radius: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.card label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(46, 44, 44);
+    color: white;
+    font-family: "Rubik", sans-serif;}

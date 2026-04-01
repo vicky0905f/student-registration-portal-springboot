@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>register</title>
+</head>
+<body>
+<header>
+    <a class="logo">Data Sticks..</a>
+    <nav>
+        <ul class="nav_links">
+            <li><a href="/">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="#">contact us</a></li>
+            <li><a href="registered_data">Registered data</a> </li>
+        </ul>
+    </nav>
+</header>
+<div class="container">
+    <div class="card">
+        <h2>Student register portal</h2>
+        <form class="form" th:action="@{/save}" method="post">
+
+        <label>Registered Id:
+             <input type="text" name="regId">
+             </label><br>
+
+        <label >Student name:
+            <input type="text" name="studentName"></label> <br>
+
+        <label>Student age:
+            <input type="number" name="age"></label><br>
+
+        <label>Department:
+            <input type="text" name="department">
+        </label><br>
+
+        <label >CGPA:
+            <input type="number"  step="0.01" name="cgpa"><br></label>
+
+        <button type="submit">Submit</button>
+    </form>
+    </div>
+</div>
+</body>
+<footer>Data sticks portal a complete open source all rights received </footer>
+</html>

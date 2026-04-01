@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Pacifico&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-family: "Rubik", sans-serif;
+    background-color: rgb(46, 44, 44);
+}
+
+a.logo {
+    text-decoration: none;
+    font-size: 26px;
+    color: cyan;
+    margin-right: auto;
+    font-weight: 800;
+    font-family: "Pacifico", cursive;
+}
+
+.nav_links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding-right: 15px;
+    padding: 5px 20px;
+}
+
+.nav_links li a {
+    text-decoration: none;
+    color: rgb(238, 175, 57);
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav_links li a:hover {
+    color: cyan;
+}
+
+/* Center container */
+.container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f7fb;
+    background-image: url('form.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: auto;
+}
+
+/* Card style */
+.card {
+    background: whitesmoke;
+    padding: 30px 40px;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    font-family: "Rubik", sans-serif;
+}
+
+/* Title */
+.card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Labels */
+.card label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+/* Inputs */
+.card input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+/* Input focus */
+.card input:focus {
+    border-color: cyan;
+    box-shadow: 0 0 5px rgba(0,255,255,0.4);
+}
+
+/* Button */
+.card button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background: cyan;
+    color: black;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+   background-position-x: center;
+   margin-right: auto;
+  
+}
+
+/* Button hover */
+.card button:hover {
+   background-color: rgb(62, 207, 62);
+   transition-duration: 1.5;
+}
+
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(46, 44, 44);
+    color: white;
+    font-family: "Rubik", sans-serif;}

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Pacifico&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 20px;
+    text-decoration: none;
+    font-family:"Rubik", sans-serif;
+    background-color: rgb(46, 44, 44);
+
+
+}
+
+a.logo{
+    text-decoration: none;
+    font-size: 26px;
+    color: cyan;
+    padding-left: 10px;
+    padding-right: 50px;
+    margin-right: auto;
+    margin-left: 10px;
+    font-weight:800;
+    font-family: "Pacifico", cursive;
+    font-style: initial;
+}
+
+ li{
+    padding-right: auto;
+    text-decoration:none ;
+    display: inline-block;
+    justify-content: flex-end;
+    justify-content: center;
+    padding-right: 15px;
+    padding: 5px 20px;
+
+   
+}
+nav.nav_links{
+    text-decoration: none;
+    list-style: none;
+}
+.nav_links li a{
+    text-decoration: none;
+    color:rgb(238, 175, 57);
+    
+   font-weight: bold;
+}
+.nav_links li a:hover{
+    color: cyan;
+    transition-duration: 1.5s;
+}
+
+ h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #333;}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-family: "Rubik", sans-serif;
+}
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+table th {
+    background-color: #333;
+    color: #fff;
+}
+table tr:nth-child(even){
+    background-color: #f4f4f4;
+}
+table tr:hover {
+    background-color: #e1e7f0;
+}
+
+
+footer{
+    text-align: center;
+    margin-top: 15%;
+    padding: 10px;
+    background-color: rgb(46, 44, 44);
+    color: white;
+    font-family: "Rubik", sans-serif;}
