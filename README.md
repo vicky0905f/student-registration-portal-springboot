@@ -41,5 +41,16 @@ Data Sticks is a full-stack web application designed to streamline the process o
    ```bash
    git clone [https://github.com/your-username/student-registration-portal-springboot.git](https://github.com/your-username/student-registration-portal-springboot.git)
    
+   Configure Database:
+Update src/main/resources/application.properties with your SQL database credentials:
+
+spring.datasource.url=jdbc:mysql://localhost:3306/your_db_name
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+
+   Run the Application:
+Navigate to the project root and run:
+mvn spring-boot:run
+
    Access the Portal:
 Open your browser and go to http://localhost:8080
