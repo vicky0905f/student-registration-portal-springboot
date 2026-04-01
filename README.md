@@ -20,7 +20,7 @@ Data Sticks is a full-stack web application designed to streamline the process o
 ## 📸 Screenshots
 
 ### 1. Home / Registration Portal
-![Registration Page]()
+![Registration Page](https://github.com/vicky0905f/student-registration-portal-springboot/blob/7e87a6459e0bc6d1d9bd3e1dedf98b6e88640a6f/Home.png)
 *The main landing page where student details are entered.*
 
 ### 2. Registered Data (Student List)
