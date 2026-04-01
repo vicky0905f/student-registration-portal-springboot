@@ -40,3 +40,6 @@ Data Sticks is a full-stack web application designed to streamline the process o
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/your-username/student-registration-portal-springboot.git](https://github.com/your-username/student-registration-portal-springboot.git)
+   
+   Access the Portal:
+Open your browser and go to http://localhost:8080
