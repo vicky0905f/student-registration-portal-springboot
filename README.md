@@ -32,7 +32,7 @@ Data Sticks is a full-stack web application designed to streamline the process o
 *Allows administrators to update existing student information seamlessly.*
 
 ### 4. Submission Confirmation
-![Success Page](path/to/your/image4.png)
+![Success Page](https://github.com/vicky0905f/student-registration-portal-springboot/blob/main/Submitted.png?raw=true)
 *User feedback after successful data persistence.*
 
 ## ⚙️ Installation & Setup
